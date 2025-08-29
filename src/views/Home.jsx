@@ -32,7 +32,8 @@ function Home() {
       
        <Card name="Mean Stack" images={Mean} description="The MEAN stack is a popular full-stack development framework used to build dynamic web applications."/>
 
-        <Card name="Artificial Intelligence" images={AI} description="(AI) refers to machines designed to mimic human intelligence to perform tasks like learning, problem-solving, and decision-making."/>      
+        <Card name="Artificial Intelligence" images={AI} description="(AI) refers to machines designed to mimic human intelligence to perform tasks like learning, problem-solving, and
+         decision-making."/>      
 </div>
 <h3 className="mt-20 text-center font-bold font-serif text-2xl">Why Choose US ?</h3>
 
