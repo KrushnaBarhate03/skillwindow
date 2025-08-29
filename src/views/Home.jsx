@@ -5,6 +5,7 @@ import Mean from '../assets/mean.jfif';
 import AI from '../assets/AI.png';
 import Choose from './Choose.jsx';
 import LastCard from './LastCard.jsx'
+import Footer from '../components/Fotter.jsx';
 
 
 
@@ -54,6 +55,10 @@ function Home() {
    <button className="md:mt-7 mt-8">
         <a href='#GetStarted' className="bg-orange-500 font-serif  text-white font-semibold p-3 rounded-lg ">Get Started</a>
      </button>
+</div>
+
+<div>
+  <Footer/>
 </div>
 </>
   )
