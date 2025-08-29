@@ -31,7 +31,7 @@ function Footer() {
 
       {/* Bottom Section */}
       <div className="border-t border-gray-300 bg-blue-600 pb-3 pt-2">
-        <p className="text-center text-gray-500 text-sm">
+        <p className="text-center text-gray-500 font-serif font-semibold text-sm">
           © 2025 SkillWindow. All Rights Reserved.
         </p>
       </div>
