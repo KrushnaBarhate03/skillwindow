@@ -5,7 +5,7 @@ import Mern from '../assets/mern-stack.png'
 function Card({name,description ,images}) {
   return (
 
-    <div className="bg-white   shadow-xl/30  w-80 md:ml-20 ml-5 h-110 mt-15 border-t-4 border-blue-500 rounded-xl">
+    <div className="bg-white   shadow-xl/30  w-80 md:ml-20 ml-6 h-110 mt-15 border-t-4 border-blue-500 rounded-xl">
 
             <img src={images} className="w-60 m-auto mt-8 "/>
 
