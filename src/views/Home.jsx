@@ -4,6 +4,7 @@ import Mern from '../assets/mern-stack.png'
 import Mean from '../assets/mean.jfif';
 import AI from '../assets/AI.png';
 import Choose from './Choose.jsx';
+import LastCard from './LastCard.jsx'
 
 
 
@@ -39,6 +40,11 @@ function Home() {
   <Choose name="Expert Faculty" images={Mern} description="Learn from top educators with years of experience."/>
   <Choose name="Comprehensive Study Materials" images={Mern} description="Access high-quality notes, quizzes,and mock tests."/>
     <Choose name="24/7 Doubt Support" images={Mern} description="Get your queries resolved instantly by experts."/>
+</div>
+
+<div className="flex flex-col items-center">
+  <LastCard name='"Thanks to this teaching, I secured a top placement"' description="- Anjali Sharma"/>
+    <LastCard name='"The best mentors and resources helped me master MERN stack development!"' description="- Rahul Verma"/>
 </div>
 </>
   )
