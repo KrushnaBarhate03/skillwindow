@@ -5,7 +5,7 @@ function Footer() {
     <>
       <div className="bg-blue-600 mt-20  flex justify-evenly flex-col  md:flex-row py-10">
         {/* Contact Us */}
-        <div className="text-center font-bold mt-5 text-white font-serif text-2xl">
+        <div className="text-center font-bold mt-8 text-white font-serif text-2xl">
           Contact Us
           <p className="text-white text-sm">A.Nagar Savedi Shiv Complex Nagar</p>
           <p className="text-white text-sm">Email: info@skillWindow@gmail.com</p>
