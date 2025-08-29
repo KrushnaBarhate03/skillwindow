@@ -39,13 +39,21 @@ function Home() {
 
 <div className="flex flex-row flex-wrap items-center"> 
   <Choose name="Expert Faculty" images={Mern} description="Learn from top educators with years of experience."/>
-  <Choose name="Comprehensive Study Materials" images={Mern} description="Access high-quality notes, quizzes,and mock tests."/>
+  <Choose name="Comprehensive Study Materials" images={Mern} description="Access high-quality notes and 
+       mock tests."/>
     <Choose name="24/7 Doubt Support" images={Mern} description="Get your queries resolved instantly by experts."/>
 </div>
 
 <div className="flex flex-col items-center">
   <LastCard name='"Thanks to this teaching, I secured a top placement"' description="- Anjali Sharma"/>
     <LastCard name='"The best mentors and resources helped me master MERN stack development!"' description="- Rahul Verma"/>
+</div>
+<div className="flex flex-col">
+  <h3 className="mt-15 text-center font-bold font-serif  text-2xl">Start Your Journey with Us Today!</h3>
+  <h4 className="text-center font-serif mt-1 text-semibold"> Join now and get access to premium courses and mentorship.</h4>
+   <button className="md:mt-7 mt-8">
+        <a href='#GetStarted' className="bg-orange-500 font-serif  text-white font-semibold p-3 rounded-lg ">Get Started</a>
+     </button>
 </div>
 </>
   )
