@@ -14,9 +14,9 @@ function Home() {
     <>
     <div className="flex flex-col items-center mt-10">
 
-      <h3 className="text-orange-500 font-serif font-bold text-4xl md:text-5xl"> Spaceship</h3> 
+      <h3 className="text-orange-500 font-serif font-bold text-center text-2xl md:text-4xl">Achieve Your Dreams with Expert Coaching</h3> 
 
-      <p className="text-orange-500 font-serif font-bold text-center px-14 text-1xl md:text-xl mt-5">Spaceship is a mini Wikipedia 📖 for computer science students, created by RoadToCode.</p>
+      <p className="text-orange-500 font-serif font-bold text-center px-14 text-1xl md:text-xl mt-5">Join thousands of students excelling in academics and competitive exams.</p>
 
      <button className="md:mt-7 mt-8">
         <a href='#GetStarted' className="bg-orange-500 font-serif  text-white font-semibold p-3 rounded-lg ">Get Started</a>
